@@ -308,7 +308,6 @@ pipelines:
         onExecute:
           - echo "Executing Post Run"
     configuration:
-      nodePool: runAdj
       environmentVariables:
         readOnly:
           TEST_ENV: "pipelines"
